@@ -3,35 +3,47 @@
 <head>
 	<meta charset="UTF-8">
 	<title>BandMash</title>
-	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	
+	<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
 	<script src="http://code.jquery.com/jquery.min.js"></script>
-
-	<script src="apps/app.js"></script>
+	<script src="apps/appreal.js"></script>
+	
 	<link rel="stylesheet" href="styles/style.css"/> 
-	<link href='http://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
+
+	
 </head>
 
 
 <body>
 
 
-<div id="main">
+
 <form>
+<div id="wrap">
+
+	<img src="images/rock-crowd.jpg" width="100%" height="500px" border-radius="8px"></script>
+	<div id="footerbox"></div>
+
+		<div id="name">BandMash</div>
+		<div id="subtitle">Find shows and concerts near you now!</div>
+		<div id="Madeby">Made by: Solomon Caceres</div>
+
+	  			<!--Text entry field--> 
+	  			<input type="text" id="query" placeholder="Enter Your zip">
+
+	  			<!--Submit button-->
+	  			<input type='submit' id="search-button" value='Submit'>
+
+	  			<!--Reset button-->
+	  			<input type='submit' id="reset-button" value='Reset'>
+
+	 			 <!--simple div-->
+	 	 <div id="search-results"></div>
 
 
-  
-  <!--Text entry field-->
-  <input type="text" id="query">
-
-  <!--Submit button-->
-  <input type='submit' id="search-term" value='Submit'>
-
-  <!--simple div-->
-  <div id="search-results"></div>
-  
+  </div>
 </form>
-</div>
+
 
 
 

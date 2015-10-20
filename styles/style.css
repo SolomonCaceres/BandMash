@@ -1,82 +1,118 @@
 body {
-  font-family: helvetica, times, serif;
+position: relative;
   font-size: 12px;
-  margin: 0;
   display: block;
   box-sizing: border-box;
 }
 
 
 
-
-body #main {
+/*this is the body wrapper*/
+body #wrap {
   position: relative;
   display: block;
-  width: 100%;
-  max-width: 1300px;
+  width: 55%;
+  min-width: 500px;
   margin: 0 auto;
   background: white;
-  min-height: 600px;
+  min-height: 500px;
+  top: 95px;
+  border: 5px solid red;
+  border-radius: 4px;
+  overflow: hiddenh;
+
+
 
 }
 
 
-
-
-body #wrapper h1 {
-  margin: 0;
-  padding: 15px;
-  text-align: center;
-}
-
-
-
-body #wrapper #myBtn {
-  color: white;
-  background: blue;
-  border-radius: 6px;
-  transition: .3s;
-  height: 40px;
-  width: 200%;
-  max-width: 270px;
-  font-size: 2em;
-  display: block;
-  text-align: center;
-  margin: 15px auto;
-  font-weight: bold;
+#name{
   position: absolute;
-  bottom: 20px;
-  left: 0;
-  right: 0;
-  top: 525px;
-}
-
-body #wrapper label {
-  display: block;
-  font-size: 1.5em;
-  width: 50%;
-  font-weight: bold;
-  margin: 1em auto;
-  /*outline: red solid 2px;*/
-  left: 600px;
-
-}
-body #wrapper #quiz {
-  position: relative;
-  top: 285px;
-}
-
-
-
-
-
-body #wrapper #quiz .total {
-  display: block;
-  margin: 0 auto;
+  font-family: Lobster;
+  font-size: 75px;
+  top: 10px;
   width: 100%;
+  height: 80px;
+  border: 1px solid blue;
   text-align: center;
-  font-size: 1.5em;
-  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+}
+
+#subtitle{
+  position: absolute;
+  font-family: Lobster;
+  font-size: 25px;
+  top: 120px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid blue;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
 }
 
 
+
+/*this is the query box*/
+#query{
+  position: absolute;
+  top: 200px;
+  left: 120px;
+}
+
+
+#search-button{
+  position: absolute;
+  top: 200px;
+  left: 275px;
+}
+
+
+#reset-button{
+  position: absolute;
+  top: 200px;
+  left: 350px;
+}
+
+
+
+
+
+/*This is where the search results pop up in the html*/
+#search-results{
+position: absolute;
+margin: 0 auto;
+  border: 1px solid red;
+  width: 65%;
+ height: 200px;
+ top:240px;
+ left: 17%;
+
+
+}
+
+ #footerbox{
+  position: absolute;
+  display: block;
+  width: 100%;
+  min-width: 500px;
+  margin: 0 auto;
+  background: black;
+  min-height: 30px;
+  top: 475px;
+
+ }
+
+ #Madeby{
+
+  position: absolute;
+  width: 100%;
+  min-width: 500px;
+  margin: 0 auto;
+  min-height: 30px;
+  top: 480px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+ }
